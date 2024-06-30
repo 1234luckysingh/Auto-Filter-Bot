@@ -80,7 +80,7 @@ TUTORIAL = environ.get("TUTORIAL", "https://t.me/hd_movies_and_webseries_channel
 VERIFY_TUTORIAL = environ.get("VERIFY_TUTORIAL", "https://t.me/hd_movies_and_webseries_channel/15")
 
 # Bot settings
-DELETE_TIME = int(environ.get('DELETE_TIME', 600)) # Add time in seconds
+DELETE_TIME = int(environ.get('DELETE_TIME', 300)) # Add time in seconds
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 MAX_BTN = int(environ.get('MAX_BTN', 10))
 LANGUAGES = [language.lower() for language in environ.get('LANGUAGES', 'hindi english telugu tamil kannada malayalam marathi punjabi').split()]
